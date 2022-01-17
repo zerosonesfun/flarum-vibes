@@ -1,0 +1,45 @@
+{
+    "name": "zerosonesfun/flarum-vibes",
+    "description": "No time to reply? A like or small reaction just will not cut it? Use a vibe BBCode. This is an alternative way to quickly reply and show support when you do not have time to type more or are not sure what to say.",
+    "type": "flarum-extension",
+    "keywords": ["discussion", "BBCode", "images"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Wilcosky",
+            "homepage": "https://www.wilcosky.com",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zerosonesfun/flarum-vibes/issues",
+        "source": "https://github.com/zerosonesfun/flarum-vibes",
+        "forum": "https://discuss.flarum.org/d/flarum-vibes"
+    },
+    "homepage": "https://www.wilcosky.com",
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.wilcosky.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZerosOnesFun\\Vibes\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BBCode - Vibes",
+            "category": "features",
+            "icon": {
+                "name": "fas fa-bolt",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
