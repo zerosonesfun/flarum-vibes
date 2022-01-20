@@ -22,41 +22,41 @@ return [
     (new Extend\Formatter)
         ->configure(function (Configurator $config) {
             $config->BBCodes->addCustom(
-                '[heart-on-fire]',
+                '[heart-on-fire text={TEXT?}]',
                 '<div class="vibes-background">
-                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/heart-on-fire.png"></div>
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/heart-on-fire.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
                 <div class="vibes-stage-heart-on-fire">
                 <div class="vibes-heart-on-fire vibes-bounce-1"></div>
             </div>'
             );
             $config->BBCodes->addCustom(
-                '[dead]',
+                '[dead text={TEXT?}]',
                 '<div class="vibes-background">
-                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/dead.png"></div>
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/dead.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
                 <div class="vibes-stage-dead">
                 <div class="vibes-dead vibes-bounce-1"></div>
             </div>'
             );
             $config->BBCodes->addCustom(
-                '[sad]',
+                '[sad text={TEXT?}]',
                 '<div class="vibes-background">
-                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/wilted-flower.png"></div>
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/wilted-flower.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
                 <div class="vibes-stage-sad">
                 <div class="vibes-sad vibes-bounce-1"></div>
             </div>'
             );
             $config->BBCodes->addCustom(
-                '[clap]',
+                '[clap text={TEXT?}]',
                 '<div class="vibes-background">
-                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/clap.png"></div>
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/clap.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
                 <div class="vibes-stage-clap">
                 <div class="vibes-clap vibes-bounce-1"></div>
             </div>'
             );
             $config->BBCodes->addCustom(
-                '[ok]',
+                '[ok text={TEXT?}]',
                 '<div class="vibes-background">
-                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/ok.png"></div>
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/ok.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
                 <div class="vibes-stage-ok">
                 <div class="vibes-ok vibes-bounce-1"></div>
             </div>'

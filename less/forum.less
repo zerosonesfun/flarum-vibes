@@ -1,11 +1,43 @@
 /* Common */
+
+.vibes-text {
+    display: inline-block;
+    transform: rotate(-10deg);
+    margin: auto;
+    position: relative;
+    left: 55%;
+    top: -225px;
+    z-index: 1;
+    width: 300px;
+    height: 80px;
+    overflow: hidden;
+}
+
+@media @phone {
+    .vibes-text {
+        width: 200px;
+        height: 150px;
+        left: 60%;
+    }
+}
+
+@media @tablet {
+    .vibes-text {
+        width: 180px;
+        height: 150px;
+        left: 60%;
+    }
+}
+
 .vibes-background {
     position: relative;
     height: 350px;
 }
 .vibes-background img {
-    width: 50%;
-    opacity: 0.3;
+    width: 300px;
+    opacity: 0.1;
+    margin: auto;
+    display: block;
 }
 .vibes-bounce-1 {
     animation-name: bounce-1;
@@ -42,6 +74,7 @@
     transform-origin: bottom;
     width: 150px;
     background-size: 150px;
+    margin: 10px auto;
 }
 
 /* Dead */
@@ -62,6 +95,7 @@
     transform-origin: bottom;
     width: 150px;
     background-size: 150px;
+    margin: 10px auto;
 }
 
 /* Sad (Wilted Flower) */
@@ -82,6 +116,7 @@
     transform-origin: bottom;
     width: 150px;
     background-size: 150px;
+    margin: 10px auto;
 }
 
 /* Clap */
@@ -102,6 +137,7 @@
     transform-origin: bottom;
     width: 150px;
     background-size: 150px;
+    margin: 10px auto;
 }
 
 /* OK */
@@ -122,4 +158,5 @@
     transform-origin: bottom;
     width: 150px;
     background-size: 150px;
+    margin: 10px auto;
 }
