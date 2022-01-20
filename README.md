@@ -14,6 +14,7 @@ Type one of the following BBCode tags into a post. This is designed to be used a
 [ok]
 [sad]
 ```
+There is also a "text" attribute for the BBCode. For example: `[dead text=This is so funny! I'm dead.]`
 
 ## Installation
 
