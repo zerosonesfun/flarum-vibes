@@ -13,6 +13,7 @@ Type one of the following BBCode tags into a post. This is designed to be used a
 [clap]
 [ok]
 [sad]
+[peace] (as of v1.3)
 ```
 
 ## Installation
@@ -35,4 +36,5 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/vibes)
 - [GitHub](https://github.com/zerosonesfun/vibes)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [Discuss](https://discuss.flarum.org/d/29871-flarum-vibes)
+- [Creator](https://www.wilcosky.com)

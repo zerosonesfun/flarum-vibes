@@ -2,36 +2,34 @@
 
 .vibes-text {
     display: inline-block;
-    transform: rotate(-10deg);
+    transform: rotate(-25deg);
     margin: auto;
     position: relative;
-    left: 55%;
-    top: -225px;
+    left: 205px;
+    top: -230px;
     z-index: 1;
-    width: 300px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     overflow: hidden;
 }
 
 @media @phone {
     .vibes-text {
-        width: 200px;
-        height: 150px;
-        left: 60%;
+        left: 30px;
+        font-size: 80%;
     }
 }
 
 @media @tablet {
     .vibes-text {
-        width: 180px;
-        height: 150px;
-        left: 60%;
+        left: 45px;
     }
 }
 
 .vibes-background {
     position: relative;
     height: 350px;
+    overflow: hidden;
 }
 .vibes-background img {
     width: 300px;
@@ -154,6 +152,27 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     background: url("https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/ok.png");
+    height: 150px;
+    transform-origin: bottom;
+    width: 150px;
+    background-size: 150px;
+    margin: 10px auto;
+}
+
+/* Peace */
+
+.vibes-stage-peace {
+    display: flex;
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.vibes-peace {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background: url("https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/peace.png");
     height: 150px;
     transform-origin: bottom;
     width: 150px;

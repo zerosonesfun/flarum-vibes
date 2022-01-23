@@ -61,5 +61,13 @@ return [
                 <div class="vibes-ok vibes-bounce-1"></div>
             </div>'
             );
+            $config->BBCodes->addCustom(
+                '[peace text={TEXT?}]',
+                '<div class="vibes-background">
+                <img src="https://cdn.jsdelivr.net/gh/zerosonesfun/select-openmoji/peace.png"><div class="vibes-text"><h3>{TEXT}</h3></div></div>
+                <div class="vibes-stage-peace">
+                <div class="vibes-peace vibes-bounce-1"></div>
+            </div>'
+            );
         })  
 ];
